@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22979" started-at="2021-06-05T13:15:59Z" finished-at="2021-06-05T13:16:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="22979" started-at="2021-06-05T13:15:59Z" finished-at="2021-06-05T13:16:22Z">
+      <class name="P1.first">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:P1.first@5dd6264]" name="before" is-config="true" duration-ms="11627" started-at="2021-06-05T13:15:59Z" finished-at="2021-06-05T13:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="facebook()[pri:0, instance:P1.first@5dd6264]" name="facebook" duration-ms="8649" started-at="2021-06-05T13:16:10Z" finished-at="2021-06-05T13:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+        <test-method status="PASS" signature="after()[pri:0, instance:P1.first@5dd6264]" name="after" is-config="true" duration-ms="2617" started-at="2021-06-05T13:16:19Z" finished-at="2021-06-05T13:16:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- P1.first -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
